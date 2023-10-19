@@ -22,7 +22,7 @@ export default function App() {
   }
   return (
      <Suspense fallback={null}>
-      <Canvas id="mycanvas" shadows camera={{ position: [1.2, -.15, 0.5], fov: 70, near: .1, far: 20 }}>
+      <Canvas id="mycanvas" shadows camera={{ position: [1.2, -.15, 0.55], fov: 70, near: .1, far: 20 }}>
         <Scene />
       </Canvas>
       <Buttons gotoAnnotation={gotoAnnotation} />
